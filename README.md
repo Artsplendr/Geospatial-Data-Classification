@@ -1,7 +1,7 @@
 # Geospatial Images Classification Using Ensemble CNNs
 
 ## Reference: 
-EuroSAT dataset, used in this experiment, is avalable at thew following link: <http://madm.dfki.de/files/sentinel/EuroSAT.zip>
+EuroSAT dataset, used in this experiment, is avalable at the following link: <http://madm.dfki.de/files/sentinel/EuroSAT.zip>
 
 ## Dataset: EuroSAT
 
