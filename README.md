@@ -7,16 +7,16 @@ EuroSAT dataset, used in this experiment, is avalable at the following link: <ht
 
 The EuroSAT dataset is a benchmark dataset for land use and land cover classification based on Sentinel-2 satellite images. It consists of 27,000 labeled images covering 10 distinct classes of land use:
 
-Annual Crop
-Forest
-Herbaceous Vegetation
-Highway
-Industrial
-Pasture
-Permanent Crop
-Residential
-River
-Sea Lake
+1. Annual Crop
+2. Forest
+3. Herbaceous Vegetation
+4. Highway
+5. Industrial
+6. Pasture
+7. Permanent Crop
+8. Residential
+9. River
+10. Sea Lake
 
 Each image is 64x64 pixels in size and contains multi-spectral data across 13 bands. However, for this project, the RGB bands were used.
 
