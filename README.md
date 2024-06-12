@@ -35,19 +35,7 @@ However, for this project, the RGB bands were used.
   ImageDataGenerator was used to perform data augmentation, including rotations, shifts, and flips, to enhance the model's generalization.
 
 ## Ensemble Model
-Three different CNN architectures were trained to form an ensemble model:
-
-  ### Model 1: Simple CNN:
-  Consists of 3 convolutional layers with 32, 64 filters and a dense layer with 128 units.
-  Includes dropout for regularization.
-
-  ### Model 2: Deeper CNN:
-  A deeper model with 3 convolutional layers having 64, 128, and 256 filters, respectively.
-  Includes a dense layer with 256 units and dropout.
-
-  ### Model 3: CNN with Different Filter Sizes:
-  Uses larger filter sizes (5x5) in the convolutional layers.
-  Consists of 3 convolutional layers with 32, 64, and 128 filters, respectively.
+Four different CNN architectures, with different setups of convolutional layers, filters, dropout for regularization  were trained to form an ensemble model.
 
 ## Training and Optimization
 
@@ -65,7 +53,7 @@ Each model's performance was evaluated on the test set.
 Accuracy and loss curves were plotted for training and validation phases.
 
 ## Ensemble Prediction:
-Predictions from all three models were averaged to produce the final prediction.
+Predictions from all four models were averaged to produce the final prediction.
 This approach leverages the strengths of each individual model, leading to better generalization.
 
 ## Final Accuracy:
@@ -73,6 +61,11 @@ The ensemble model achieved an accuracy of approximately 94% on the test set, in
 
 ## Visualization and Predictions
 To validate the model, three test images were randomly selected, and their predicted classes were visualized along with the true labels. This helped in qualitatively assessing the model's performance.
+<p align="left">
+  <img width="631" height="188" src="image.png">
+</p>
 
 ## Conclusion
-The project successfully demonstrates the application of ensemble CNN models for geospatial image classification using the EuroSAT dataset. The ensemble approach combined multiple CNN architectures, leading to improved accuracy and robustness. The final ensemble model achieved a commendable accuracy of 94%, making it a reliable model for land use and land cover classification tasks using satellite imagery.
+The project successfully demonstrates the application of ensemble CNN models for geospatial image classification using the EuroSAT dataset. 
+The ensemble approach combined multiple CNN architectures, leading to improved accuracy and robustness. 
+The final ensemble model achieved a commendable accuracy of 94%, making it a reliable model for land use and land cover classification tasks using satellite imagery.
