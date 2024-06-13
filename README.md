@@ -35,7 +35,7 @@ However, for this project, the RGB bands were used.
   ImageDataGenerator was used to perform data augmentation, including rotations, shifts, and flips, to enhance the model's generalization.
 
 ## Ensemble Model
-Four different CNN architectures, with different setups of convolutional layers, filters, dropout for regularization  were trained to form an ensemble model.
+Four CNN architectures, with setups of convolutional layers, filters, dropout for regularization were trained to form an ensemble model.
 
 ## Training and Optimization
 
